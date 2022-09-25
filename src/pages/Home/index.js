@@ -141,13 +141,13 @@ export default function Home() {
                     </div>
                     <div class="con">
                       <h6>
-                        <a href="cotton-house.html">Interior</a>
+                        <a href="/ProjectA">Project A</a>
                       </h6>
                       <h5>
-                        <a href="cotton-house.html">Cotton House</a>
+                        <a href="/ProjectA">Cotton House</a>
                       </h5>
                       <div class="line"></div>{" "}
-                      <a href="cotton-house.html">
+                      <a href="/ProjectA">
                         <i class="ti-arrow-right"></i>
                       </a>
                     </div>
@@ -159,13 +159,13 @@ export default function Home() {
                     </div>
                     <div class="con">
                       <h6>
-                        <a href="armada-center.html">Exterior</a>
+                        <a href="/ProjectB">Exterior</a>
                       </h6>
                       <h5>
-                        <a href="armada-center.html">Armada Center</a>
+                        <a href="/ProjectB">Project B</a>
                       </h5>
                       <div class="line"></div>{" "}
-                      <a href="armada-center.html">
+                      <a href="/ProjectB">
                         <i class="ti-arrow-right"></i>
                       </a>
                     </div>
@@ -177,13 +177,13 @@ export default function Home() {
                     </div>
                     <div class="con">
                       <h6>
-                        <a href="stonya-villa.html">Urban</a>
+                        <a href="ProjectC">Project C</a>
                       </h6>
                       <h5>
-                        <a href="stonya-villa.html">Stonya Villa</a>
+                        <a href="ProjectC">Stonya Villa</a>
                       </h5>
                       <div class="line"></div>{" "}
-                      <a href="stonya-villa.html">
+                      <a href="ProjectC">
                         <i class="ti-arrow-right"></i>
                       </a>
                     </div>
@@ -195,13 +195,13 @@ export default function Home() {
                     </div>
                     <div class="con">
                       <h6>
-                        <a href="prime-hotel.html">Interior</a>
+                        <a href="/ProjectD">Interior</a>
                       </h6>
                       <h5>
-                        <a href="prime-hotel.html">Prime Hotel</a>
+                        <a href="/ProjectD">Project D</a>
                       </h5>
                       <div class="line"></div>{" "}
-                      <a href="prime-hotel.html">
+                      <a href="/ProjectD">
                         <i class="ti-arrow-right"></i>
                       </a>
                     </div>
@@ -213,13 +213,13 @@ export default function Home() {
                     </div>
                     <div class="con">
                       <h6>
-                        <a href="prime-hotel.html">Interior</a>
+                        <a href="ProjectE">Interior</a>
                       </h6>
                       <h5>
-                        <a href="prime-hotel.html">Prime Hotel</a>
+                        <a href="ProjectE">Project E</a>
                       </h5>
                       <div class="line"></div>{" "}
-                      <a href="prime-hotel.html">
+                      <a href="ProjectE">
                         <i class="ti-arrow-right"></i>
                       </a>
                     </div>
@@ -231,13 +231,13 @@ export default function Home() {
                     </div>
                     <div class="con">
                       <h6>
-                        <a href="prime-hotel.html">Interior</a>
+                        <a href="/ProjectF">Interior</a>
                       </h6>
                       <h5>
-                        <a href="prime-hotel.html">Prime Hotel</a>
+                        <a href="/ProjectF">Project F</a>
                       </h5>
                       <div class="line"></div>{" "}
-                      <a href="prime-hotel.html">
+                      <a href="/ProjectF">
                         <i class="ti-arrow-right"></i>
                       </a>
                     </div>
@@ -314,7 +314,7 @@ export default function Home() {
             <div class="row">
               <div class="col-md-4">
                 <div class="item">
-                  <a href="architecture.html">
+                  <a href="/Murals">
                     {" "}
                     <img src="img/icons/murals.png" alt="" />
                     <h5>MURALS</h5>
@@ -329,7 +329,7 @@ export default function Home() {
               </div>
               <div class="col-md-4">
                 <div class="item">
-                  <a href="interior-design.html">
+                  <a href="/Sculptures">
                     {" "}
                     <img src="img/icons/sculpture.png" alt="" />
                     <h5>3D SCULPTURES</h5>
@@ -344,7 +344,7 @@ export default function Home() {
               </div>
               <div class="col-md-4">
                 <div class="item">
-                  <a href="urban-design.html">
+                  <a href="/Foutains">
                     {" "}
                     <img src="img/icons/fountains.png" alt="" />
                     <h5>FOUNTAINS</h5>
@@ -362,7 +362,7 @@ export default function Home() {
             <div class="row">
               <div class="col-md-4">
                 <div class="item">
-                  <a href="architecture.html">
+                  <a href="/PlanterBoxes">
                     {" "}
                     <img src="img/icons/planterbox.png" alt="" />
                     <h5>CUSTOMIZED PLANTER BOXES</h5>
@@ -377,7 +377,7 @@ export default function Home() {
               </div>
               <div class="col-md-4">
                 <div class="item">
-                  <a href="interior-design.html">
+                  <a href="/CustomizedSeaters">
                     {" "}
                     <img src="img/icons/seater.png" alt="" />
                     <h5>CUSTOMIZED SEATERS</h5>
@@ -392,7 +392,7 @@ export default function Home() {
               </div>
               <div class="col-md-4">
                 <div class="item">
-                  <a href="urban-design.html">
+                  <a href="/Paintings">
                     {" "}
                     <img src="img/icons/canvas.png" alt="" />
                     <h5>WALL AND CANVAS PAINTINGS</h5>
@@ -410,7 +410,7 @@ export default function Home() {
             <div class="row">
               <div class="col-md-4">
                 <div class="item">
-                  <a href="architecture.html">
+                  <a href="/BrassDoors">
                     {" "}
                     <img src="img/icons/ddoors.png" alt="" />
                     <h5>BRASS DOORS</h5>
@@ -425,7 +425,7 @@ export default function Home() {
               </div>
               <div class="col-md-4">
                 <div class="item">
-                  <a href="interior-design.html">
+                  <a href="/WallTextures">
                     {" "}
                     <img src="img/icons/wall.png" alt="" />
                     <h5>INTERIOR WALL TEXTURES</h5>
@@ -440,7 +440,7 @@ export default function Home() {
               </div>
               <div class="col-md-4">
                 <div class="item">
-                  <a href="urban-design.html">
+                  <a href="/Landscaping">
                     {" "}
                     <img src="img/icons/la.png" alt="" />
                     <h5>LANDSCAPING</h5>

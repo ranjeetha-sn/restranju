@@ -1,8 +1,17 @@
 import "./App.css";
 import Home from "./pages/Home";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
+import Contact from "./pages/Contact/contact";
 
+import ProjectA from "./pages/Projects/projectA";
+import ProjectB from "./pages/Projects/projectB";
+import ProjectC from "./pages/Projects/projectC";
+import ProjectD from "./pages/Projects/projectD";
+import ProjectE from "./pages/Projects/projectE";
+import ProjectF from "./pages/Projects/projectF";
+import Murals from "./pages/Services/murals";
+import CanvasPaintaing from "./pages/Services/canvasPaintaing";
 function App() {
   return (
     <>
@@ -66,31 +75,31 @@ function App() {
                 </span>
                 <ul class="dropdown-menu last">
                   <li class="dropdown-item">
-                    <a href="/services">MURALS</a>
+                    <a href="/Murals">MURALS</a>
                   </li>
                   <li class="dropdown-item">
-                    <a href="/services2">3D SCULPTURES</a>
+                    <a href="/Sculptures">3D SCULPTURES</a>
                   </li>
                   <li class="dropdown-item">
-                    <a href="/services3">FOUNTAINS</a>
+                    <a href="/Fountains">FOUNTAINS</a>
                   </li>
                   <li class="dropdown-item">
-                    <a href="/services4">CUSTOMIZED PLANTER BOXES</a>
+                    <a href="/PlanterBoxes">CUSTOMIZED PLANTER BOXES</a>
                   </li>
                   <li class="dropdown-item">
-                    <a href="/services5">CUSTOMIZED SEATERS</a>
+                    <a href="/CustomizedSeaters">CUSTOMIZED SEATERS</a>
                   </li>
                   <li class="dropdown-item">
-                    <a href="/services6">WALL AND CANVAS PAINTINGS</a>
+                    <a href="/Paintings">WALL AND CANVAS PAINTINGS</a>
                   </li>
                   <li class="dropdown-item">
-                    <a href="/services7">BRASS DOORS</a>
+                    <a href="/BrassDoors">BRASS DOORS</a>
                   </li>
                   <li class="dropdown-item">
-                    <a href="/services8">INTERIOR WALL TEXTURES</a>
+                    <a href="/WallTextures">INTERIOR WALL TEXTURES</a>
                   </li>
                   <li class="dropdown-item">
-                    <a href="/services9">LANDSCAPING</a>
+                    <a href="/Landscaping">LANDSCAPING</a>
                   </li>
                 </ul>
               </li>
@@ -102,22 +111,22 @@ function App() {
                 </span>
                 <ul class="dropdown-menu last">
                   <li class="dropdown-item">
-                    <a href="/projects">Projects 01</a>
+                    <a href="/ProjectA">Project A</a>
                   </li>
                   <li class="dropdown-item">
-                    <a href="/projects2">Projects 02</a>
+                    <a href="/ProjectB">Project B</a>
                   </li>
                   <li class="dropdown-item">
-                    <a href="/projects3">Projects 03</a>
+                    <a href="/ProjectC">Project C</a>
                   </li>
                   <li class="dropdown-item">
-                    <a href="/projects4">Projects 04</a>
+                    <a href="/ProjectD">Project D</a>
                   </li>
                   <li class="dropdown-item">
-                    <a href="/project-gallery">Project Gallery</a>
+                    <a href="/ProjectE">Project E</a>
                   </li>
                   <li class="dropdown-item">
-                    <a href="/project-page">Project Page</a>
+                    <a href="/ProjectF">Project F</a>
                   </li>
                 </ul>
               </li>
@@ -134,6 +143,23 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route path="/About" element={<About />}></Route>
+          <Route path="/Contact" element={<Contact />}></Route>
+          <Route path="/ProjectA" element={<ProjectA />}></Route>
+          <Route path="/ProjectB" element={<ProjectB />}></Route>
+          <Route path="/ProjectC" element={<ProjectC />}></Route>
+          <Route path="/ProjectD" element={<ProjectD />}></Route>
+          <Route path="/ProjectE" element={<ProjectE />}></Route>
+          <Route path="/ProjectF" element={<ProjectF />}></Route>
+
+          <Route path="/Murals" element={<Murals />}></Route>
+          <Route path="/Sculptures" element={<ProjectF />}></Route>
+          <Route path="/Fountains" element={<ProjectF />}></Route>
+          <Route path="/PlanterBoxes" element={<ProjectF />}></Route>
+          <Route path="/CustomizedSeaters" element={<ProjectF />}></Route>
+          <Route path="/Paintings" element={<CanvasPaintaing />}></Route>
+          <Route path="/BrassDoors" element={<ProjectF />}></Route>
+          <Route path="/WallTextures" element={<ProjectF />}></Route>
+          <Route path="/Landscaping" element={<ProjectF />}></Route>
         </Routes>
       </BrowserRouter>
     </>
